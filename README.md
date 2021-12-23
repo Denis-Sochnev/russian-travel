@@ -8,6 +8,8 @@
 2)Использвоние Flex
 3)Подключение сторонних шрифтов
 
+**Ссылка на GitHub Pages**
 
+https://denis-sochnev.github.io/russian-travel/
 
 

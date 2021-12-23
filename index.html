@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main/index.css">
-    <title>Путишествия по России</title>
+    <title>Путешествия по России</title>
 </head>
-<body>
+<body class='root'>
     <div class='page'>
         <header class='header'>
             <img class='header__logo' src='./blocks/header/work-images/header-logo.svg' alt='Логотип'>
-            <a href='#' class='header__language header__language_type_ru'>Ru</a>
-            <a href='#' class='header__language header__language_type_en'>En</a> 
+            <ul class='header__language'>
+                <li><a href='#' class='header__language header__language_type_ru'>Ru</a></li>
+                <li><a href='#' class='header__language header__language_type_en'>En</a></li>
+            </ul>
         </header>
 
         <main class='content'>
@@ -67,8 +69,8 @@
                         <p class='cards__paragraph'>Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны 
                         и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
                         <p class='cards__paragraph'>На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная 
-                        точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в 
-                        спокойствие природы и запах стального, прохладного моря.</p>
+                        точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие 
+                        природы и запах стального, прохладного моря.</p>
                     </div>
                 </div>
 
@@ -144,13 +146,15 @@
         </main>
 
         <footer class='footer'>
-            <ul class='list'>
-                <li><a href='https://yandex.ru/maps' class='list__row' target="blank">Карты</a></li>
-                <li><a href='https://yandex.ru/pogoda' class='list__row' target="blank">Погода</a></li>
-                <li><a href='https://rasp.yandex.ru' class='list__row' target="blank">Расписание</a></li>
-                <li><a href='https://calendar.yandex.ru' class='list__row' target="blank">Календарь</a></li>
-                <li><a href='https://travel.yandex.ru' class='list__row' target="blank">Путешествия</a></li>
-            </ul>
+            <nav>
+                <ul class='list'>
+                    <li><a href='https://yandex.ru/maps' class='list__row' target="blank">Карты</a></li>
+                    <li><a href='https://yandex.ru/pogoda' class='list__row' target="blank">Погода</a></li>
+                    <li><a href='https://rasp.yandex.ru' class='list__row' target="blank">Расписание</a></li>
+                    <li><a href='https://calendar.yandex.ru' class='list__row' target="blank">Календарь</a></li>
+                    <li><a href='https://travel.yandex.ru' class='list__row' target="blank">Путешествия</a></li>
+                </ul>
+            </nav>
             <p class='footer__copyright'>&copy; 2021. Сочнев Денис</p>
         </footer>
     </div>
