@@ -1,9 +1,10 @@
 /* Сторонние стили */
 @import url(../vendor/normalize.css);
 
-/* Подключение шрифтов */
+/* Подключение шрифтов и тело страницы */
 @import url(../vendor/fonts/Inter/inter.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/root/root.css);
 
 /* Блок "header" */
 @import url(../blocks/header/header.css);
