@@ -1,6 +1,7 @@
 .header__logo {
     width: 176px;
     height: 52px;
+<<<<<<< HEAD
     position: absolute;
     left: 48px;
     top: 28px;
@@ -12,10 +13,17 @@
   }
 }
 
+=======
+}
+
+>>>>>>> main
 @media screen and (max-width:767px) {
   .header__logo {
       width: 142px;
       height: 42px;
+<<<<<<< HEAD
       left: 16px;
+=======
+>>>>>>> main
   }
 }

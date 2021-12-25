@@ -22,12 +22,12 @@
 }
 
 @media screen and (max-width:767px) {
-    .footer{
-        width:186px;
-        height:310px;
-        margin:64px 0 0 16px;
-        flex-direction:column;
-        align-items:flex-start;
-        justify-content:space-between;
+    .footer {
+        width: 186px;
+        height: 310px;
+        margin: 64px 0 0 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
     }
 }

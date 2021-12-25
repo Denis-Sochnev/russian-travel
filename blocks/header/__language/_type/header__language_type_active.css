@@ -1,0 +1,7 @@
+<<<<<<< HEAD:blocks/header/__language/_type/header__language_type_ru.css
+.header__language_type_ru {
+=======
+.header__language_type_active {
+>>>>>>> main:blocks/header/__language/_type/header__language_type_active.css
+    text-decoration-line: underline;
+  }
