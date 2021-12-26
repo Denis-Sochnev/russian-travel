@@ -8,6 +8,12 @@
     margin: 0;
 }
 
+@media screen and (max-width:1279px) {
+    .lead__text {
+        margin-left:24px;
+    }
+}
+
 @media screen and (max-width:767px) {
     .lead__text {
         margin-left: 16px;

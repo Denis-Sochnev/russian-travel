@@ -10,11 +10,11 @@
 }
 
 @media screen and (max-width:767px) {
-    .card__paragraph {
+    .cards__paragraph {
         font-size: 16px;
         grid-column: 1;
         grid-row: 4;
-        margin-bottom: 25px;
+        padding:0 16px;
     }
 }
 
