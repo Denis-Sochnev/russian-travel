@@ -1,4 +1,4 @@
-.cards {
+.card {
     max-width: 984px;
     max-height: 660px;
     margin-bottom: 80px;
@@ -9,14 +9,14 @@
 }
 
 @media screen and (max-width:1279px) {
-    .cards {
+    .card {
         column-gap: 32px;
         grid-template-columns: minmax(440px,440px) minmax(320px,484px);
     }
 }
 
 @media screen and (max-width:1023px) {
-    .cards {
+    .card {
         column-gap: 28px;
         margin-bottom: 73px;
         grid-template-columns: minmax(340px,340px) minmax(320px,484px);
@@ -24,7 +24,7 @@
 }
 
 @media screen and (max-width:767px) {
-    .cards {
+    .card {
         margin-bottom: 50px;
         grid-template-columns: minmax(320px,320px);
         grid-template-rows: repeat(4,min-content);
@@ -34,6 +34,6 @@
     }
 }
 
-.cards:last-child {
+.card:last-child {
     margin: 0;
 }

@@ -1,4 +1,4 @@
-.cards__links {
+.card__links {
     grid-column: 2;
     grid-row: 1/2;
     display: flex;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width:767px) {
-    .cards__links {
+    .card__links {
         grid-column: 1;
         grid-row: 2;
         margin: 0 0 0 16px;

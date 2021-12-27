@@ -1,0 +1,11 @@
+.header__language-choice {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 0 0 18px;
+    
+}
+
+.header__language-choice:hover {
+    opacity: 0.8;
+    transition: 1s;
+}

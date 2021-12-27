@@ -1,4 +1,4 @@
-.cards__title {
+.card__title {
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width:1023px) {
-    .cards__title {
+    .card__title {
         font-size: 42px;
         line-height: 46px;
         padding-right: 12px;
@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width:767px) {
-    .cards__title {
+    .card__title {
         font-size: 32px;
         line-height: 35px;
         grid-row: 1;

@@ -1,10 +1,8 @@
 .cover__background-image {
     background-image: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url(../../../images/cover-trains.jpg);
     width: 100%;
-    height: 100%;
+    height: 740px;
     background-size:cover;
-    position: absolute;
-    z-index: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,21 +14,19 @@
 @media screen and (max-width:1279px) {
     .cover__background-image {
         width: 100%;
-        height: 100%;
+        height: 640px;
     }
 }
 
 @media screen and (max-width:1023px) {
     .cover__background-image {
-        width: 100%;
-        height: 100%;
+        height: 480px;
     }
 }
 
 @media screen and (max-width:767px) {
     .cover__background-image {
-        width: 320px;
-        height: 100%;
+        height: 200px;
     }
 }
 

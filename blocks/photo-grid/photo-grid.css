@@ -1,13 +1,11 @@
 .photo-grid {
     margin: 0 auto 92px;
     max-width: 1184px;
-    max-height: 671px;
 }
 
 @media screen and (max-width:1279px) {
     .photo-grid {
         max-width: 928px;
-        max-height: 942px;
         margin: 0 auto 92px;
     }
 }
@@ -15,7 +13,6 @@
 @media screen and (max-width:1023px) {
     .photo-grid {
         max-width: 720px;
-        max-height: 1664px;
         margin: 0 auto 88px;
     }
   }
@@ -23,7 +20,6 @@
   @media screen and (max-width:767px) {
     .photo-grid {
         max-width: 288px;
-        max-height: 2725px;
         margin: 0 auto 64px;
     }
   }
