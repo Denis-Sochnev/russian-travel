@@ -1,6 +1,5 @@
 .card {
     max-width: 984px;
-    max-height: 660px;
     margin-bottom: 80px;
     display: grid;
     grid-template-columns: minmax(320px,460px) minmax(320px,484px);

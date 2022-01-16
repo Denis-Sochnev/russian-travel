@@ -10,7 +10,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__language/header__language.css);
-@import url(../blocks/header/__language/header__language-choice.css);
+@import url(../blocks/header/__language-choice/header__language-choice.css);
 @import url(../blocks/header/__language/_active/header__language-choice_active.css);
 
 /* Блок "lead" */
@@ -29,7 +29,6 @@
 
 /* Блок "photo-grid"*/
 @import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/photo-grid/__images/photo-grid__images.css);
 @import url(../blocks/photo-grid/__images-photo/photo-grid__images-photo.css);
 
 /* Блок "places" */
